@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="css/semantic.css" rel="stylesheet" type="text/css">
+  <link href="css/homepage.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://use.typekit.net/c/c3f7d9/calluna-sans:n4:n9.QKN:N:2,QKY:N:2/d?3bb2a6e53c9684ffdc9a9bff135b2a62420d995bda4d3b1c65f0910a8314a3863d75cce0fc40a103194a3132849aa0863937f292c9cd4db575e9b57816ecc2aa7384dcc1cbe057d6d0e757c3f5cf5589de688863b3b731976aa0be826696cf5a4080c3fc0cef495d46539f0af1643b54fddb936d8c9c6b2d9a66850567957d1e0105f310dd76a635d7f48b0cf619d618294663415166017c3d5231ea68f6517b514f61a95c9b08b89fe20a33ba61ab80638be0e2782adc1c8783e45d45f7d6772bffb9281b509f">
+
+  <script src="js/jquery-2.0.3.js"></script>
+  <script src="js/semantic.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/piechart.js"></script>
+  <script src="js/bubblechart.js"></script>
+  <script src="js/homepage.js"></script>
+
+  <title>Coco =33=</title>
+
+</head>
+<body>
+  <div class="ui masthead segment">
+
+
+        <div class="header item" style="float: left; ">
+            <img src="img/logo.jpg" class="ui image"/>
+        </div>
+
+        <div class="right menu" style="float: right">
+          <div class="ui secondary menu" style="font-size: 30px">
+            <a class="active item">
+                <i class="home icon"></i> ABOUT
+            </a>
+            <a class="item">
+                <i class="lab icon"></i> PORTFOLIO
+            </a>
+            <a class="item">
+                <i class="text file outline icon"></i> BLOG
+            </a>
+            <a class="item">
+                <i class="user icon"></i> CONTACT
+            </a>
+          </div>
+        </div>
+
+  </div>
+
+  <div class="ui page grid stackable relaxed name segment">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          <img src="img/name.jpg"/>
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="ui center aligned header">
+          <h2>...</h2>
+          <h2>A front end developer ready for hire</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui page grid stackable relaxed aboutme segment">
+    <div class="row">
+      <div class="ui center aligned header">
+        <div class="ui circular large image">
+          <div class="ui circular fade reveal image">
+            <img class="visible content" src="/img/rabbit.jpg">
+            <img class="hidden content" src="/img/me.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h1 class="ui center aligned grey header">
+          About me
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+        <div id="self_description" class="ten wide column">
+          <div class="ui transition information">
+          <h2 class="ui grey header">I'm Coco</h2>
+          <p>I'm a happy girl who likes pink and hello kitty.</p>
+          <p>I enjoy drawing, designing and coding pretty UI. </p>
+          <p>I like cooking.</p>
+          <p>I like singing and dancing.</p>
+          <p>I like to smile. :-)</p>
+          <p>I want to do something awesome!</p>
+        </div>
+      </div>
+      <div class="six wide column">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="ui page grid stackable relaxed work segment">
+
+    <div class="row">
+      <div class="center aligned ui header">
+        <div class="ui circular large image">
+            <img src="/img/work.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Work
+        </h1>
+        <div class="ui horizontal divider"><i class="heart icon"></i></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ui page grid stackable relaxed technical segment">
+    <div class="row">
+      <div class="center aligned ui header">
+        <div class="ui circular large image">
+          <img src="/img/tech.png">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Technical Skills
+        </h1>
+        <div class="ui horizontal divider"><i class="heart icon"></i></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight wide column">
+        <div class="ui transition information">
+          <h2 class="ui header"><i class="magic icon"></i>Designer & Coder</h2>
+          <p>I like to design pretty cute and modern UI.</p>
+          <p>I'm experienced in web application dev.</p>
+          <p>I'm a new graduate from CMU.</p>
+        </div>
+        <div class="ui transition information">
+          <h2 class="ui header"><i class="magic icon"></i>Front-end & Back-end</h2>
+          <p><i class="tag icon"></i> Front-end</p>
+          <p>HTML/CSS, JavaScript, AngularJS, ExtJS, JQuery, SemanticUI, Bootstrap, JSP, Flex/Flash, TypeScript, Python.</p>
+          <p><i class="tag icon"></i> Back-end</p>
+          <p>Java, MySql, C, Computer Networks, Distributed System, Search Engine and Web Mining</p>
+        </div>
+      </div>
+      <div class="eight wide column">
+        <div id="easy-as-pie-chart"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui inverted page grid footer segment">
+    <div class="row">
+      <div class="ten wide column">
+          <div class="ui header">Social Network</div>
+          <div class="ui inverted link list">
+            <i class="big circular facebook icon"></i>
+            <i class="big circular pinterest icon"></i>
+            <i class="big circular linkedin icon"></i>
+            <i class="big circular foursquare icon"></i>
+            <i class="big circular weibo icon"></i>
+            <i class="big circular renren icon"></i>
+          </div>
+      </div>
+      <div class="six wide right floated aligned column">
+        <h3 class="ui header">Contact Me</h3>
+          <email>
+            dhh1216@gmail.com
+          </email>
+        <p>(412) 916-2362</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
