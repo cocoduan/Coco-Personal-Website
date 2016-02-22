@@ -4,22 +4,21 @@
 
 html,
 body {
-  font-size: 15px;
-  height: 100%;
+    font-size: 15px;
+    height: 100%;
 }
 
 body {
-  font-family: "calluna-sans", Helvetica, Helvetica Neue, Arial;
-  margin: 0px;
-  padding: 0px;
-  /*text-rendering: optimizeLegibility;*/
-  min-width: 320px;
+    font-family: "calluna-sans", Helvetica, Helvetica Neue, Arial;
+    margin: 0px;
+    padding: 0px;
+    /*text-rendering: optimizeLegibility;*/
+    min-width: 320px;
 }
 
 button, input, select, textarea {
-  font-family: "calluna-sans", Helvetica, Helvetica Neue, Arial;
+    font-family: "calluna-sans", Helvetica, Helvetica Neue, Arial;
 }
-
 
 /*******************************
           UI Overrides
@@ -27,140 +26,141 @@ button, input, select, textarea {
 
 .ui.header,
 h1 {
-  padding-top: 2em;
-  font-weight: bold !important;
+    padding-top: 2em;
+    font-weight: bold !important;
 }
 
 .ui.menu .item {
-  font-size: 1.3rem;
-  font-weight: bold !important;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 h2 {
-  padding-top: 2em;
-  font-weight: normal !important;
+    padding-top: 2em;
+    font-weight: normal !important;
 }
 
 h1.ui.header {
-  font-size: 3em;
+    font-size: 3em;
 }
 
 h4.ui.header,
 h5.ui.header,
 .ui.icon.header {
-  font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .ui.button {
-  font-weight: normal;
-  text-decoration: none;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 a {
-  color: #009FDA;
-  text-decoration: none;
-  -webkit-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+    color: #009FDA;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .ui.secondary.menu > .item {
-  padding-top: 2em;
-  padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .ui.menu a.item:hover,
 .ui.menu .active.item {
-  color: #f06457;
-  padding-top: 2em;
-  padding-bottom: 2em;
+    color: #f06457;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 div.right.menu
-div.ui.secondary.menu{
-  height: 100px;
+div.ui.secondary.menu {
+    height: 100px;
 }
-
 
 p a {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-  /* UI global */
-.masthead.segment {
-  margin: 0em;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-right: 0rem;
-  background:hsla(240,17%,99%,0.97);
-
+/* UI global */
+.ui.segment.menubar {
+    margin: 0em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    background: hsla(240, 17%, 99%, 0.97);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
 }
 
 .name.segment {
-  padding-top: 8rem !important;
-  background-color: #f06457;
-  height: 750px;
-  color: rgb(234, 228, 228);
-  font-size: 24px;
-  text-shadow: rgba(0, 0, 0, 0.0470588) 2px 2px 0px;
-  text-align: center;
+    padding-top: 8rem !important;
+    background-color: #f06457;
+    height: 750px;
+    color: rgb(234, 228, 228);
+    font-size: 24px;
+    text-shadow: rgba(0, 0, 0, 0.0470588) 2px 2px 0px;
+    text-align: center;
 }
 
 .aboutme.segment {
-  padding-top: 4rem !important;
-  background-color: #5E5F67;
-  height: 1200px;
-  color: rgb(234, 228, 228);
-  font-size: 24px;
-  text-shadow: rgba(0, 0, 0, 0.0470588) 2px 2px 0px;
+    padding-top: 4rem !important;
+    background-color: #5E5F67;
+    height: 1200px;
+    color: rgb(234, 228, 228);
+    font-size: 24px;
+    text-shadow: rgba(0, 0, 0, 0.0470588) 2px 2px 0px;
 }
 
-
 /*#self_description{*/
-  /*left: -10px;*/
-  /*border: 1px #f00 solid;*/
-  /*-webkit-transition: all 1s ease-in-out;*/
-  /*-moz-transition: all 1s ease-in-out;*/
-  /*-o-transition: all 1s ease-in-out;*/
-  /*transition: all 3s ease-in-out;*/
+/*left: -10px;*/
+/*border: 1px #f00 solid;*/
+/*-webkit-transition: all 1s ease-in-out;*/
+/*-moz-transition: all 1s ease-in-out;*/
+/*-o-transition: all 1s ease-in-out;*/
+/*transition: all 3s ease-in-out;*/
 /*}*/
 
 /*#self_description:hover {*/
-  /*left: 10px;*/
-  /*width: 200px;*/
+/*left: 10px;*/
+/*width: 200px;*/
 
 /*}*/
 
 .segment .information {
-  min-height: 200px;
-  color: rgb(234, 228, 228);
+    min-height: 200px;
+    color: rgb(234, 228, 228);
 }
 
 .segment .information p {
-  max-width: 600px;
+    max-width: 600px;
 }
 
 .work.segment {
-  background-color: #f06457;
-  height: 1500px;
-  color: rgb(234, 228, 228);
-  padding-top: 4rem !important;
+    background-color: #f06457;
+    height: 1500px;
+    color: rgb(234, 228, 228);
+    padding-top: 4rem !important;
 }
 
 .technical.segment {
-  padding-top: 4rem !important;
-  background-color: #5E5F67;
-  height: 1300px;
-  color: rgb(234, 228, 228);
+    padding-top: 4rem !important;
+    background-color: #5E5F67;
+    height: 1300px;
+    color: rgb(234, 228, 228);
 }
 
 .footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem !important;
-  background-color: #f06457 !important;
+    padding-top: 4rem;
+    padding-bottom: 4rem !important;
+    background-color: #f06457 !important;
 }
 
 /*******************************
@@ -168,31 +168,30 @@ p a {
 *******************************/
 
 img.ui.image {
-  display: block;
-  background: none;
-  top: 30px;
+    display: block;
+    background: none;
+    top: 30px;
 }
-
 
 /*******************************
           Pie Chart
 *******************************/
 
 #easy-as-pie-chart {
-  background-color: transparent;
+    background-color: transparent;
 }
 
-#easy-as-pie-chart .label{
-  fill: hotpink;
-  font-size: 30px;
+#easy-as-pie-chart .label {
+    fill: hotpink;
+    font-size: 30px;
 }
 
-#easy-as-pie-chart .value{
-  font-size: 15px;
-  font-weight: bold;
+#easy-as-pie-chart .value {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #bubble-chart {
-  padding-top: 0;
+    padding-top: 0;
 }
 
